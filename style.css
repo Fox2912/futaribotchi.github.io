@@ -1,0 +1,61 @@
+body
+{
+	background-image: url("haikei.png");
+	background-size:cover;
+	
+	color: #f0f0f0;
+	text-align: center;
+	margin: 50px;
+}
+
+
+
+.Title
+{
+	font-size: 70px;
+	color: #f0f0f0;
+}
+
+#icon_YT
+{
+	width: 6%;
+}
+
+#icon_X
+{
+	width: 6%;
+}
+
+#icon_insta
+{
+	width: 6%;
+}
+
+
+.Title_Text
+{
+	font-size: 40px;
+	text-align: left;
+	margin-left: 15%
+}
+
+#NEWS
+{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 18%
+}
+
+#MV
+{
+
+	text-align: left;
+	margin-left: 16%
+}
+
+#RELEASE
+{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 18%
+}
