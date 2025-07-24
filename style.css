@@ -9,6 +9,80 @@ body
 }
 
 
+/* スマホサイズのとき（600px以下） */
+@media (max-width: 600px) {
+body
+{
+	background-image: url("taco.png");
+	background-size:cover;
+	
+	color: #f0f0f0;
+	text-align: center;
+	margin: 50px;
+}
+
+a img {
+  border: none;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Title
+{
+	font-size: 70px;
+	color: #f0f0f0;
+}
+
+#icon_YT
+{
+	width: 6%;
+}
+
+#icon_X
+{
+	width: 6%;
+}
+
+#icon_insta
+{
+	width: 6%;
+}
+
+
+.Title_Text
+{
+	font-size: 40px;
+	text-align: left;
+	margin-left: 15%
+}
+
+#NEWS
+{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 18%
+}
+
+#MV
+{
+
+	text-align: left;
+	margin-left: 16%
+}
+
+#RELEASE
+{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 18%
+}
+
+}
+/*メディアクエリ終了*/
+
 
 .Title
 {
