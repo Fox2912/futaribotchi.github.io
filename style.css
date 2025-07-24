@@ -5,7 +5,7 @@ body
 	
 	color: #f0f0f0;
 	text-align: center;
-	margin: 50px;
+	margin: 0%;
 }
 
 /* NEWSリンクの表示 */
@@ -110,6 +110,32 @@ a:hover {
 .CD_photo
 {
 	width: 40%;
+}
+
+
+
+.footer
+{
+	width: 100%;
+	margin: 0%;
+	padding: 2rem;
+	font-size: 15px;
+	text-align: left;
+	color: black;
+	background: #ffffff;
+}
+
+a.QandA,
+a.QandA:link,
+a.QandA:visited,
+a.QandA:hover,
+a.QandA:active {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
+a.QandA:hover {
+  color: #fb8b8b; /* 白く光らせる */
 }
 
 /* メディアクエリ(600px) */
