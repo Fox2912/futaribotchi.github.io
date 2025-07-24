@@ -8,6 +8,7 @@ body
 	margin: 50px;
 }
 
+/* NEWSリンクの表示 */
 a img {
   border: none;
   vertical-align: middle;
@@ -23,9 +24,10 @@ a:active {
 }
 
 a:hover {
-  color: #ffffff; /* 白く光らせるとか */
+  color: #ffffff; /* 白く光らせる */
 }
 
+/* NEWSリンクの表示終了 */
 
 
 .Title
@@ -35,30 +37,32 @@ a:hover {
 }
 
 
-
+/* icon size */
 #icon_YT
 {
-	width: 6%;
+	width: 9%;
 }
 
 #icon_X
 {
-	width: 6%;
+	width: 9%;
 }
 
 #icon_insta
 {
-	width: 6%;
+	width: 9%;
 }
 
 
+/* 見出しサイズ */
 .Title_Text
 {
 	font-size: 40px;
 	text-align: left;
-	margin-left: 15%
+	margin-left: 13%
 }
 
+/* NEWS text */
 #NEWS
 {
 	font-size: 18px;
@@ -66,16 +70,15 @@ a:hover {
 	margin-left: 18%
 }
 
-
+/* MV display */
 #MV {
   display: flex;               /* ← 横並び！ */
   gap: 50px;                   /* ← 動画同士の間隔 */
   flex-wrap: wrap;             /* ← スマホで縦並びにする準備 */
-  margin-left: 17%;
+  margin-left: 14%;
   margin-top: 20px;
 }
 
-/* iframe単体のスタイル */
 .yt-frame {
   width: 40%;
   aspect-ratio: 16 / 9;        /* モダンな高さ調整！ */
@@ -84,12 +87,15 @@ a:hover {
 }
 
 
+/* CD news */
 #RELEASE
 {
 	font-size: 18px;
 
 	text-align: left;
-	margin-left: 18%
+	margin-left: 14%;
+	margin-top: 0%;
+	
 }
 
 .CD_photo
@@ -97,7 +103,7 @@ a:hover {
 	width: 40%;
 }
 
-/* スマホサイズのとき（600px以下） */
+/* メディアクエリ(600px) */
 @media (max-width: 600px) {
 
 	.Title
@@ -107,22 +113,23 @@ a:hover {
 	.Title_Text
 	{
 	font-size: 25px;
+	margin-left: 10%;
 	color: #ffffff;
 	}
 
 	#icon_YT
 {
-	width: 17%;
+	width: 18%;
 }
 
 #icon_X
 {
-	width: 17%;
+	width: 18%;
 }
 
 #icon_insta
 {
-	width: 17%;
+	width: 18%;
 }
 
 	#NEWS
@@ -132,12 +139,15 @@ a:hover {
 	}
 
 	.yt-frame {
-    width: 100%;     /* ← 全幅に広げる */
+    width: 80%;     /* ← 全幅に広げる */
   	}
 
   	#MV {
 	text-align: center;
-    margin: 5;
+	display: block;
+	margin: 0 auto;
+	margin-left: 5%;
+
   	}
 
 	#RELEASE
@@ -150,8 +160,8 @@ a:hover {
 	.CD_photo
 	{
 	width: 75%;
-	text-align: center;
-	margin-left: 10%
+	display: block;
+	margin: 0 auto;
 	}
 }
 /* メディアクエリ終了*/
