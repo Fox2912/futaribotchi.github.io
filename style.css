@@ -19,6 +19,10 @@ a {
    text-decoration: none;
 }
 
+a:visited {
+  color: #b0f5f5;        /* ← これ書かないとGitHub Pagesでは紫になることがある */
+}
+
 .Title
 {
 	font-size: 70px;
