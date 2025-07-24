@@ -62,7 +62,9 @@ a:hover {
 {
 	font-size: 40px;
 	text-align: left;
-	margin-left: 13%
+	margin-left: 13%;
+	margin-top: 8%;
+	margin-bottom: 0%;
 }
 
 /* NEWS text */
@@ -70,7 +72,7 @@ a:hover {
 {
 	font-size: 20px;
 	text-align: left;
-	margin-left: 18%
+	margin-left: 17%
 }
 
 /* MV display */
@@ -106,13 +108,15 @@ a:hover {
 	font-size: 20px;
 
 	text-align: left;
-	margin-left: 10%;
-	margin-top: 0%;
+	margin-left: 21%;
+	margin-top: 1%;
 }
 
 .CD_photo
 {
-	width: 40%;
+	width: 30%;
+	margin-right: 42%;
+	margin-top: 0%;
 }
 
 
@@ -204,6 +208,7 @@ a.QandA:hover {
 	{
 	font-size: 14px;
 	text-align: center;
+	margin-left: 0%;
 
 	}
 
@@ -216,10 +221,8 @@ a.QandA:hover {
 
 	.CD_photo
 	{
-	width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
+	width: 80%;
+	margin-right: 0%;
 	}
 
 	.footer {
