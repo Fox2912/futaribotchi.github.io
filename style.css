@@ -6,8 +6,9 @@ body
 	color: #f0f0f0;
 	text-align: center;
 	margin: 0%;
-
+	
 	overflow-x: hidden;
+
 }
 
 /* NEWSリンクの表示 */
@@ -121,10 +122,15 @@ a:hover {
 	width: 100%;
 	margin: 0%;
 	padding: 2rem;
-	font-size: 15px;
+	font-size: 20px;
 	text-align: left;
 	color: black;
 	background: #ffffff;
+}
+
+#footer
+{
+	margin-top: 5%;
 }
 
 a.QandA,
@@ -138,6 +144,7 @@ a.QandA:active {
 
 a.QandA:hover {
   color: #fb8b8b; /* 白く光らせる */
+
 }
 
 /* メディアクエリ(600px) */
@@ -210,5 +217,18 @@ a.QandA:hover {
 	display: block;
 	margin: 0 auto;
 	}
+
+	.footer {
+    font-size: 15px;
+    padding: 0.8rem 1rem;  /* ← paddingを薄く！ */
+    text-align: center;     /* ← 中央寄せのほうが見やすい */
+    line-height: 1.2;       /* ← 行間も詰める */
+  	}
+
+	#footer
+	{
+	margin-top: 15%;
+	}
+	
 }
 /* メディアクエリ終了*/
