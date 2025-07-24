@@ -8,19 +8,6 @@ body
 	margin: 50px;
 }
 
-
-/* スマホサイズのとき（600px以下） */
-@media (max-width: 600px) {
-body
-{
-	background-image: url("taco.png");
-	background-size:cover;
-	
-	color: #f0f0f0;
-	text-align: center;
-	margin: 50px;
-}
-
 a img {
   border: none;
   vertical-align: middle;
@@ -36,59 +23,7 @@ a {
 	color: #f0f0f0;
 }
 
-#icon_YT
-{
-	width: 6%;
-}
 
-#icon_X
-{
-	width: 6%;
-}
-
-#icon_insta
-{
-	width: 6%;
-}
-
-
-.Title_Text
-{
-	font-size: 40px;
-	text-align: left;
-	margin-left: 15%
-}
-
-#NEWS
-{
-	font-size: 18px;
-	text-align: left;
-	margin-left: 18%
-}
-
-#MV
-{
-
-	text-align: left;
-	margin-left: 16%
-}
-
-#RELEASE
-{
-	font-size: 18px;
-	text-align: left;
-	margin-left: 18%
-}
-
-}
-/*メディアクエリ終了*/
-
-
-.Title
-{
-	font-size: 70px;
-	color: #f0f0f0;
-}
 
 #icon_YT
 {
@@ -120,16 +55,88 @@ a {
 	margin-left: 18%
 }
 
-#MV
-{
 
-	text-align: left;
-	margin-left: 16%
+#MV {
+  display: flex;               /* ← 横並び！ */
+  gap: 50px;                   /* ← 動画同士の間隔 */
+  flex-wrap: wrap;             /* ← スマホで縦並びにする準備 */
+  margin-left: 17%;
+  margin-top: 20px;
 }
+
+/* iframe単体のスタイル */
+.yt-frame {
+  width: 40%;
+  aspect-ratio: 16 / 9;        /* モダンな高さ調整！ */
+  border: none;
+  max-width: 100%;             /* 親幅に合わせて縮む */
+}
+
 
 #RELEASE
 {
 	font-size: 18px;
+
 	text-align: left;
 	margin-left: 18%
 }
+
+.CD_photo
+{
+	width: 40%;
+}
+
+/* スマホサイズのとき（600px以下） */
+@media (max-width: 600px) {
+
+	.Title
+	{
+	font-size: 35px;
+	}
+	.Title_Text
+	{
+	font-size: 25px;
+	color: #ffffff;
+	}
+
+	#icon_YT
+{
+	width: 17%;
+}
+
+#icon_X
+{
+	width: 17%;
+}
+
+#icon_insta
+{
+	width: 17%;
+}
+
+	#NEWS
+	{
+	font-size: 15px;
+	color: #ffffff;
+	}
+
+	.yt-frame {
+    width: 70%;     /* ← 全幅に広げる */
+  	}
+
+  	#MV {
+    margin: 10;
+  	}
+
+	#RELEASE
+	{
+	font-size: 7px;
+
+	}
+
+	.CD_photo
+	{
+	width: 40%;
+	}
+}
+/* メディアクエリ終了*/
