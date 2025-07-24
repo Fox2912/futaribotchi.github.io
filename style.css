@@ -13,23 +13,15 @@ a img {
   vertical-align: middle;
 }
 
-a {
-  
-　　color: #baf5f5         /* 通常状態のリンク色 */
-   text-decoration: none;
-}
-
-a:visited {
-  color: #b0f5f5;        /* ← これ書かないとGitHub Pagesでは紫になることがある */
-}
-
-a:hover {
-  color: #ffcc00;
-}
-
+a,
+a:link,
+a:visited,
+a:hover,
 a:active {
-  color: #ff6600;
+  color: #b0f5f5;
+  text-decoration: none;
 }
+
 
 .Title
 {
