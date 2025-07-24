@@ -138,12 +138,12 @@ a.QandA:link,
 a.QandA:visited,
 a.QandA:hover,
 a.QandA:active {
-  color: hsl(0, 0%, 0%);
+  color: hsl(248, 57%, 44%);
   text-decoration: none;
 }
 
 a.QandA:hover {
-  color: #fb8b8b; /* 白く光らせる */
+  color: #000000; /* 白く光らせる */
 
 }
 
@@ -178,6 +178,7 @@ a.QandA:hover {
 
 	#NEWS
 	{
+	margin-left: 5%;
 	font-size: 12px;
 	color: #ffffff;
 	}
