@@ -91,7 +91,7 @@ a {
 
 	.Title
 	{
-	font-size: 35px;
+	font-size: 27px;
 	}
 	.Title_Text
 	{
@@ -116,27 +116,31 @@ a {
 
 	#NEWS
 	{
-	font-size: 15px;
+	font-size: 12px;
 	color: #ffffff;
 	}
 
 	.yt-frame {
-    width: 70%;     /* ← 全幅に広げる */
+    width: 100%;     /* ← 全幅に広げる */
   	}
 
   	#MV {
-    margin: 10;
+	text-align: center;
+    margin: 5;
   	}
 
 	#RELEASE
 	{
 	font-size: 7px;
-
+	text-align: center;
+	margin-left: 10%
 	}
 
 	.CD_photo
 	{
-	width: 40%;
+	width: 75%;
+	text-align: center;
+	margin-left: 10%
 	}
 }
 /* メディアクエリ終了*/
