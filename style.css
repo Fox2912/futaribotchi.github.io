@@ -23,6 +23,14 @@ a:visited {
   color: #b0f5f5;        /* ← これ書かないとGitHub Pagesでは紫になることがある */
 }
 
+a:hover {
+  color: #ffcc00;
+}
+
+a:active {
+  color: #ff6600;
+}
+
 .Title
 {
 	font-size: 70px;
