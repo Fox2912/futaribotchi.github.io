@@ -40,21 +40,13 @@ a:hover {
 }
 
 
+
 /* icon size */
-#icon_YT
+.icon
 {
 	width: 9%;
 }
 
-#icon_X
-{
-	width: 9%;
-}
-
-#icon_insta
-{
-	width: 9%;
-}
 
 
 /* 見出しサイズ */
@@ -164,20 +156,11 @@ a.QandA:hover {
 	color: #ffffff;
 	}
 
-	#icon_YT
-{
+	.icon_YT
+	{
 	width: 18%;
-}
+	}
 
-#icon_X
-{
-	width: 18%;
-}
-
-#icon_insta
-{
-	width: 18%;
-}
 
 	#NEWS
 	{
