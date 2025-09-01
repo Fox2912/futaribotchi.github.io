@@ -1,0 +1,87 @@
+body
+{
+	background-image: url("haikei.jpg");
+	background-size:cover;
+	
+	color: #f0f0f0;
+	text-align: center;
+	margin: 0%;
+	
+	/*overflow-x: hidden;*/
+
+}
+
+.title
+{
+	font-size: 40px;
+}
+
+.text_B
+{
+	font-size: 27px;
+}
+.text
+{
+	font-size: 25px;
+}
+
+.CD_photo
+{
+	width: 35%;
+
+	margin-top: 0%;
+}
+
+a.Top,
+a.Top:link,
+a.Top:visited,
+a.Top:hover,
+a.Top:active {
+  color: hsl(248, 57%, 44%);
+  text-decoration: none;
+}
+
+.footer
+{
+	margin: 0%;
+	padding: 2rem;
+	font-size: 20px;
+	color: black;
+	background: #ffffff;
+}
+
+#footer
+{
+	margin-top: 5%;
+}
+
+/* メディアクエリ(600px) */
+@media (max-width: 600px) {
+
+	.CD_name
+	{
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+	}
+
+	.CD_photo
+	{
+	width: 80%;
+	margin-right: 0%;
+	}
+
+	.footer {
+    font-size: 15px;
+    padding: 0.8rem 1rem;  /* ← paddingを薄く！ */
+    text-align: center;     /* ← 中央寄せのほうが見やすい */
+    line-height: 1.2;       /* ← 行間も詰める */
+  	}
+
+	#footer
+	{
+	margin-top: 15%;
+	}
+	
+}
+/* メディアクエリ終了*/
