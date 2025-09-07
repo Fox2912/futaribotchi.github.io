@@ -95,22 +95,35 @@ a:hover {
 	
 }
 
-.CD_name
-{
-	font-size: 20px;
-
-	text-align: left;
-	margin-left: 21%;
-	margin-top: 1%;
+.Mukuchina_Block
+{	
+	position:relative;
+	margin-left:13.3%;
+	/*width:1330px;*/
+	
+	/*background-color: red;*/
 }
 
 .CD_photo
 {
 	width: 30%;
-	margin-right: 42%;
+	margin-right: 70%;
 	margin-top: 0%;
 }
 
+.CD_name
+{
+	position:absolute;
+	font-size: 20px;
+
+	top:99%;
+	left:11.5%;
+	/*top: 1859px;
+	left: 320px;
+	text-align: left;
+	margin-left: 21%;
+	margin-top: 1%;*/
+}
 
 
 .footer
@@ -189,23 +202,30 @@ a.QandA:hover {
 
 	#RELEASE
 	{
-	font-size: 14px;
+	font-size: 16px;
 	text-align: center;
 	margin-left: 0%;
 
 	}
 
+	.Mukuchina_Block
+	{	
+	position:relative;
+	}
+
 	.CD_name
 	{
-	font-size: 12px;
-	text-align: center;
-	margin: 0;
+	font-size: 15px;
+	position:absolute;
+
+	top: 98%;
+	left: 35%;
 	}
 
 	.CD_photo
 	{
 	width: 80%;
-	margin-right: 0%;
+	margin-right:12%;
 	}
 
 	.footer {
